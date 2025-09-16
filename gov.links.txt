@@ -1,0 +1,26 @@
+https://github.com/account/enterprises/data_residency_provisioning/bithubgov
+
+https://github.com/Doctor0Evil/metasitebuild.git
+
+https://claude.ai/public/artifacts/6d01dc75-80c0-44c6-802b-edd3adb130b0
+
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek RTL8821CE 802.11ac PCIe Adapter
+   Physical Address. . . . . . . . . : 0C-96-E6-67-A9-E7
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::daf6:9a40:e1c3:4e35%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.0.18(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, September 12, 2025 1:16:44 AM
+   Lease Expires . . . . . . . . . . : Friday, September 12, 2025 3:14:14 PM
+   Default Gateway . . . . . . . . . : 192.168.0.1
+   DHCP Server . . . . . . . . . . . : 192.168.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 487364326
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-23-C0-95-D1-F4-39-09-41-0A-87
+   DNS Servers . . . . . . . . . . . : 192.168.0.1
+                                       205.171.2.25
+   NetBIOS over Tcpip. . . . . . . . : Enabled

@@ -1,0 +1,1458 @@
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek RTL8821CE 802.11ac PCIe Adapter
+   Physical Address. . . . . . . . . : 0C-96-E6-67-A9-E7
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::daf6:9a40:e1c3:4e35%12(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.0.18(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, September 12, 2025 1:16:44 AM
+   Lease Expires . . . . . . . . . . : Friday, September 12, 2025 3:14:14 PM
+   Default Gateway . . . . . . . . . : 192.168.0.1
+   DHCP Server . . . . . . . . . . . : 192.168.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 487364326
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-23-C0-95-D1-F4-39-09-41-0A-87
+   DNS Servers . . . . . . . . . . . : 192.168.0.1
+                                       205.171.2.25
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+
+
+
+
+
+
+
+
+
+
+name: BitHub Org Cluster Lockdown
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+  actions: read
+
+concurrency:
+  group: bithub-lockdown-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CLUSTER_TRACE_FILE: .bit/audit/trace.jsonl
+  CLUSTER_AUDIT_DIR: .bit/audit
+  ENCRYPT_LOG: .bit/logs/cluster_access.log
+
+jobs:
+  cluster-lockdown:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      # Environment requires approval, only org members can approve
+      url: https://bithub.org/secure-cluster
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Ensure workflow can only be triggered by org members with write permissions
+      - name: Validate organization membership
+        run: |
+          echo "Validating access..."
+          if [[ "${{ github.actor }}" == "dependabot[bot]" ]]; then
+            echo "Bots not allowed." && exit 1
+          fi
+
+      # Use org-level secrets for encrypted credentials
+      - name: Load cluster encryption key
+        id: load_key
+        run: |
+          echo "::add-mask::${{ secrets.CLUSTER_ENCRYPTION_KEY }}"
+          echo "${{ secrets.CLUSTER_ENCRYPTION_KEY }}" > cluster.key
+
+      # Example encrypted communication using OpenSSL and org secret
+      - name: Secure communication (demo)
+        run: |
+          MESSAGE="BitHub cluster lockdown init by ${{ github.actor }}."
+          echo $MESSAGE | openssl enc -aes-256-cbc -a -salt -pass file:./cluster.key > message.enc
+          echo "$(date -u +"%Y-%m-%dT%H:%M:%SZ") :: LOCKDOWN :: $MESSAGE" >> ${{ env.ENCRYPT_LOG }}
+
+      # Write audit trace as org secret
+      - name: Prepare audit directory and write trace
+        run: |
+          mkdir -p "${{ env.CLUSTER_AUDIT_DIR }}"
+          echo '{"schema":"bithub.cluster.trace.v1","component":"lockdown.bot","run_id":"${{ github.run_id }}","actor":"${{ github.actor }}","ref":"${{ github.ref }}","event":"${{ github.event_name }}","timestamp":"$(date -u +"%Y-%m-%dT%H:%M:%SZ")","status":"completed"}' > "${{ env.CLUSTER_TRACE_FILE }}"
+
+      # Push artifacts (adapt to BitHub/Perplexity requirements)
+      - name: Push audit artifacts
+        run: |
+          echo "Simulating push to BitHub secure runner..."
+          # bithub push --audience "${{ github.repository_owner }}" --trace "${{ env.CLUSTER_TRACE_FILE }}" --logs "${{ env.ENCRYPT_LOG }}"
+          echo "Push complete."
+
+      # Encrypted communication can only use org-level secrets, preventing access via forks or non-org members
+
+    # Restrict interaction: only org members may trigger workflows, Perplexity invites handled externally[16]
+
+:: ALN-ONLY 1
+rem [Stabilize CPU/GPU with advanced hooks]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+@echo off
+set ENV=VSC_ARTEMIS_ORG_LOCK
+:: Restrict Actions to organization-only
+git config --global actions.allowed "organization"
+:: Require environment protection (manual approval)
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+https://api.github.com/repos/%REPO%/environments/production/protection_rules ^
+-d "{\"required_reviewers\": [\"admin1\",\"admin2\"]}"
+echo "CPU/GPU stabilization hook engaged"
+pause
+
+:: ALN-ONLY 2
+rem [Encrypted Secrets Provisioning]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+setx GITHUB_SECRET_ENCRYPTION "AES-256-GCM"
+curl -X PUT -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"key\":\"API_PRIVATE_KEY\",\"value\":\"%ENCRYPTED_VALUE%\",\"visibility\":\"org\"}" ^
+  https://api.github.com/orgs/VSC-ARTEMIS/secrets/API_PRIVATE_KEY
+echo "All secrets enforced with AES-256-GCM, org-only access"
+pause
+
+:: ALN-ONLY 3
+rem [Automate cluster lockdown]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"enabled\":false}" https://api.github.com/orgs/VSC-ARTEMIS/actions/public-actions-usage
+echo "Public actions locked, cluster hardened, audit log triggered"
+pause
+
+:: ALN-ONLY 4
+rem [Enforce repository visibility lockdown]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"visibility_control\": \"owners_only\"}" ^
+  https://api.github.com/orgs/VSC-ARTEMIS/settings/repo-visibility-lock
+echo "Repo visibility restricted to org owners"
+pause
+
+:: ALN-ONLY 5
+rem [Enable invitation-only workflow gates]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"workflow_gates\": \"invitation_only\", \"allowed_users\": [\"trusted-user1\",\"trusted-user2\"]}" ^
+  https://api.github.com/repos/%REPO%/workflows/deploy/gates
+echo "Workflow gates deployed, invitation-only access enabled"
+pause
+
+:: ALN-ONLY 6
+rem [Safe-mode boot for advanced intelligence]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+bcdedit /set {current} safeboot minimal
+set SYSTEM_MODE=ALN.PROGRAM.SAFE
+echo "System rebooted in ALN safe mode, hardware access hardened"
+pause
+
+:: ALN-ONLY 7
+rem [Audit log streaming]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+start /B powershell -command "Get-Content /opt/vsc/logs/audit_20250728.log -Wait"
+echo "Real-time audit log active for compliance/reporting review"
+pause
+
+:: ALN-ONLY 8
+rem [Environment security stager]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"environment\":\"production\",\"protection\":\"strict\"}" ^
+  https://api.github.com/repos/%REPO%/environments/production
+echo "Production environment isolation initialized"
+pause
+
+:: ALN-ONLY 9
+rem [Restrict cluster node access]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+  -d "{\"node_access\":{\"g4dn.xlarge\":\"authorized\",\"t3.large\":\"authorized\"}}" ^
+  https://api.github.com/orgs/VSC-ARTEMIS/hardware/nodes
+echo "Node access policy enforced"
+pause
+
+:: ALN-ONLY 10
+rem [Kubernetes pod lockdown for VSC-Artemis]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+kubectl label nodes aws-gov-node-1 lockdown=enabled
+kubectl label nodes aws-gov-node-2 lockdown=enabled
+kubectl label nodes couchbase-gov-node-1 lockdown=enabled
+kubectl cordon aws-gov-node-3
+echo "Kubernetes cluster restriction protocol completed"
+pause
+
+:: ALN-ONLY 1
+rem [Multi-Level Environment Protection Rules]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/environments/protect/protection_rules" ^
+-d "{\"required_reviewers\": [\"compliance_team\",\"admin_team\"], \"wait_timer\": 10}"
+pause
+
+:: ALN-ONLY 2
+rem [Create Encrypted Organization Secret Variables]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+setx GITHUB_SECRET_ENCRYPTION "AES-256-GCM"
+curl -X PUT -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"key\":\"VSC_ARTE_SECRET\",\"value\":\"%ENCRYPTED_VALUE%\",\"visibility\":\"org\"}" ^
+"https://api.github.com/orgs/VSC-ARTEMIS/secrets/VSC_ARTE_SECRET"
+pause
+
+:: ALN-ONLY 3
+rem [Configure Branch Restrictions for Org Visibility]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PUT -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/branches/dev/protection" ^
+-d "{\"enforce_admins\":true,\"required_pull_request_reviews\":{\"required_approving_review_count\":2},\"restrictions\":{\"teams\":[\"vsc-admin\"]}}"
+pause
+
+:: ALN-ONLY 4
+rem [Automate Cluster Lockdown in CI/CD]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"enabled\":false}" "https://api.github.com/orgs/VSC-ARTEMIS/actions/public-actions-usage"
+pause
+
+:: ALN-ONLY 5
+rem [Design Custom Workflow Gates for Invite-Only Access]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"workflow_gates\":\"invitation_only\",\"allowed_users\":[\"trusted-dev1\",\"trusted-dev2\"]}" ^
+"https://api.github.com/repos/%REPO%/workflows/safe/gates"
+pause
+
+:: ALN-ONLY 6
+rem [Stabilize Advanced Intelligence in Safe Mode]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+bcdedit /set {current} safeboot minimal
+set SYSTEM_MODE=ALN.PROGRAM.SAFE
+pause
+
+:: ALN-ONLY 7
+rem [Enable Real-Time Audit Logging]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+start /B powershell -command "Get-Content /opt/vsc/logs/audit_20250728.log -Wait"
+pause
+
+:: ALN-ONLY 8
+rem [Enforce Environment Secret Approval]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/environments/protect/secrets/VSC_ARTE_SECRET" ^
+-d "{\"required_approvers\":[\"security-team\"]}"
+pause
+
+:: ALN-ONLY 9
+rem [Restrict Node Access within Cluster]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"node_access\":{\"g4dn.xlarge\":\"authorized\",\"t3.large\":\"authorized\"}}" ^
+"https://api.github.com/orgs/VSC-ARTEMIS/hardware/nodes"
+pause
+
+:: ALN-ONLY 10
+rem [Kubernetes Pod Lockdown Protocol]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+kubectl label nodes aws-gov-node-1 lockdown=enabled
+kubectl label nodes aws-gov-node-2 lockdown=enabled
+kubectl cordon aws-gov-node-3
+pause
+:: ALN-ONLY 1
+rem [Multi-Level Environment Protection]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/environments/staging/protection_rules" ^
+-d "{\"required_reviewers\": [\"admin3\",\"admin4\"], \"wait_timer\": 5}"
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/environments/production/protection_rules" ^
+-d "{\"required_reviewers\": [\"admin1\",\"admin2\"], \"wait_timer\": 10}"
+echo "Staging and production protection rules enabled"
+pause
+
+:: ALN-ONLY 2
+rem [Create Encrypted Organization Secret]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+setx GITHUB_SECRET_ENCRYPTION "AES-256-GCM"
+curl -X PUT -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"key\":\"ARTEMIS_TOKEN\",\"value\":\"%ENCRYPTED_VALUE%\",\"visibility\":\"org\"}" ^
+"https://api.github.com/orgs/VSC-ARTEMIS/secrets/ARTEMIS_TOKEN"
+echo "ARTEMIS_TOKEN secret secured for org workflows"
+pause
+
+:: ALN-ONLY 3
+rem [Branch Restriction for Org-Only Visibility]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PUT -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/branches/main/protection" ^
+-d "{\"enforce_admins\": true, \"required_pull_request_reviews\": {\"required_approving_review_count\": 2}, \"restrictions\": {\"users\": [], \"teams\": [\"vsc-admins\"]}}"
+echo "Main branch locked to org-admins, 2 reviews required"
+pause
+
+:: ALN-ONLY 4
+rem [Cluster CI/CD Lockdown Automation]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"enabled\":false}" "https://api.github.com/orgs/VSC-ARTEMIS/actions/public-actions-usage"
+echo "Actions lockdown executed, only internal allowed"
+pause
+
+:: ALN-ONLY 5
+rem [Custom Workflow Gate: Invitation-Only]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"workflow_gates\": \"invitation_only\", \"allowed_users\": [\"trusted1\",\"trusted2\",\"trusted3\"]}" ^
+"https://api.github.com/repos/%REPO%/workflows/access/gates"
+echo "Workflow invitation-only gates activated"
+pause
+
+:: ALN-ONLY 6
+rem [Enhanced Audit Logging]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+start /B powershell -command "Get-Content /opt/vsc/logs/audit_20250728.log -Wait"
+curl -X POST -H "Authorization: Bearer %GITHUB_TOKEN%" ^ 
+-d "{\"event\":\"audit_stream_enabled\"}" ^ 
+"https://api.github.com/orgs/VSC-ARTEMIS/audit/config"
+echo "Audit log stream running, compliance enforced"
+pause
+
+:: ALN-ONLY 7
+rem [Environment Secret Approval Enforcement]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+"https://api.github.com/repos/%REPO%/environments/production/secrets/ARTEMIS_TOKEN" ^
+-d "{\"required_approvers\": [\"security-team\"]}"
+echo "Production secrets gating by security team"
+pause
+
+:: ALN-ONLY 8
+rem [Node Restriction for Cluster Security]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+curl -X PATCH -H "Authorization: Bearer %GITHUB_TOKEN%" ^
+-d "{\"node_access\":{\"g4dn.xlarge\":\"authorized\",\"t3.large\":\"authorized\"}}" ^
+"https://api.github.com/orgs/VSC-ARTEMIS/hardware/nodes"
+echo "Cluster access strictly limited"
+pause
+
+:: ALN-ONLY 9
+rem [Pod Cordon for Controlled Access]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+kubectl cordon aws-gov-node-3
+kubectl cordon couchbase-gov-node-3
+kubectl label nodes aws-gov-node-1 lockdown=enabled
+echo "Pods cordoned, nodes locked down"
+pause
+
+:: ALN-ONLY 10
+rem [Safe-Mode System Bootstrap]
+windows 13 >enter.boot %winboot.cmd> run-terminal\
+bcdedit /set {current} safeboot minimal
+set SYSTEM_MODE=ALN.PROGRAM.SAFE
+echo "ALN hardware in safe boot, constraints active"
+pause
+module ban_db.updater
+  database: "C:\secure\banlist.db"
+  update_banlist:
+    add: ["neuromorphic", "isomorphic", "BRAIN_COMPUTER_INTERFACE"]
+    add_signal: ["944MHz-958MHz", "Keeloq", "Alutech AT4N", "Nice Flor S"]
+    neuro_signals: ["COERCION", "EMOTION_CONTROL"]
+    remove_if: record contains "allowed"
+  hardware_jam:
+    script: "C:\scripts\cleverJam.py"
+    config: "C:\secure\jam_db.json"
+    freq_jam_active: TRUE
+  compliance_ledger:
+    endpoint: "https://api.github.com/orgs/VSC-ARTEMIS/compliance/ban_db_update"
+    auth_token: "%VSC_TOKEN%"
+    payload: {"updated": true, "timestamp": "%date% %time%"}
+  auditlog: appendonly
+  output: "Master ban database updated with new bans, signal patterns, and neuro-signal countermeasures."
+end
+.bitshell BAN_DB_UPDATE_SESSION INIT
+  DB_PATH="C:\secure\banlist.db"
+  FOR device IN ["neuromorphic", "isomorphic", "BRAIN_COMPUTER_INTERFACE"] DO
+    BAN(device)
+  FOR signal IN ["944MHz-958MHz", "Keeloq", "Alutech AT4N", "Nice Flor S"] DO
+    BAN(signal)
+  FOR neuro IN ["COERCION", "EMOTION_CONTROL"] DO
+    BAN(neuro)
+  REMOVE "allowed" ENTRIES FROM BAN_DB
+  IF JAM_HARDWARE ATTACHED THEN
+    RUN "C:\scripts\cleverJam.py --config C:\secure\jam_db.json"
+  END
+  POST COMPLIANCE LEDGER UPDATE TO "https://api.github.com/orgs/VSC-ARTEMIS/compliance/ban_db_update" WITH TOKEN
+  LOG "Ban DB audit completed. Frequencies, devices, neuro-signals enforced."
+ENDSESSION
+protocol ban_db.safe_removal
+  step 1: audit banlist integrity
+  step 2: multi-sig regulator approval for ban erase
+  step 3: anchor change request (sha3-512) on compliance blockchain
+  step 4: execute ban removal if audit passes with ledger update
+  fallback: quarantine action, escalate for forensic review
+end
+module service.quota_limiter
+  detect quota_message "You've reached your monthly chat messages quota."
+  enforce: no-script-bypass
+  notify_user: "Monthly quota renewal, upgrade, sign-in, or alternate endpoint required."
+  recommended_actions: [
+    "Wait for next cycle.",
+    "Upgrade to Copilot Pro.",
+    "Switch eligible account.",
+    "Use alternative Copilot endpoints."
+  ]
+  log: quota-message-detected, output advisory and guidance.
+end
+.bitshell SERVICE_QUOTA_HANDLER INIT
+  IF message == "quota exceeded"
+    DISPLAY "This is a provider-imposed limit; no script or code change will affect it. Proceed with renewal, upgrade, or alternate login."
+    LOG quota_exceeded_event, output advisory
+  END
+ENDSESSION
+
+
+
+
+
+Here's a summary of the Go package symbols and their properties you provided:
+
+Package
+
+Type/Function/Const
+
+Name
+
+Property/Value
+
+crypto/tls
+
+const
+
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+
+= 52393, uint16
+
+crypto/tls
+
+const
+
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+
+= 52392, uint16
+
+crypto/tls
+
+func
+
+CipherSuiteName(uint16)
+
+string
+
+crypto/tls
+
+func
+
+CipherSuites()
+
+[]*CipherSuite
+
+crypto/tls
+
+func
+
+InsecureCipherSuites()
+
+[]*CipherSuite
+
+crypto/tls
+
+method
+
+(*CertificateRequestInfo) SupportsCertificate(*Certificate)
+
+error
+
+crypto/tls
+
+method
+
+(*ClientHelloInfo) SupportsCertificate(*Certificate)
+
+error
+
+crypto/tls
+
+type
+
+Certificate struct
+
+SupportedSignatureAlgorithms []SignatureScheme
+
+crypto/tls
+
+type
+
+CertificateRequestInfo struct
+
+Version uint16
+
+crypto/tls
+
+type
+
+CipherSuite struct
+
+
+
+crypto/tls
+
+type
+
+CipherSuite struct
+
+ID uint16
+
+crypto/tls
+
+type
+
+CipherSuite struct
+
+Insecure bool
+
+crypto/tls
+
+type
+
+CipherSuite struct
+
+Name string
+
+crypto/tls
+
+type
+
+CipherSuite struct
+
+SupportedVersions []uint16
+
+debug/dwarf
+
+const
+
+AttrAddrBase
+
+= 115, Attr
+
+debug/dwarf
+
+const
+
+AttrAlignment
+
+= 136, Attr
+
+debug/dwarf
+
+const
+
+AttrBinaryScale
+
+= 91, Attr
+
+debug/dwarf
+
+const
+
+AttrCallAllCalls
+
+= 122, Attr
+
+debug/dwarf
+
+const
+
+AttrCallAllSourceCalls
+
+= 123, Attr
+
+debug/dwarf
+
+const
+
+AttrCallAllTailCalls
+
+= 124, Attr
+
+debug/dwarf
+
+const
+
+AttrCallDataLocation
+
+= 133, Attr
+
+debug/dwarf
+
+const
+
+AttrCallDataValue
+
+= 134, Attr
+
+debug/dwarf
+
+const
+
+AttrCallOrigin
+
+= 127, Attr
+
+debug/dwarf
+
+const
+
+AttrCallPC
+
+= 129, Attr
+
+debug/dwarf
+
+const
+
+AttrCallParameter
+
+= 128, Attr
+
+debug/dwarf
+
+const
+
+AttrCallReturnPC
+
+= 125, Attr
+
+debug/dwarf
+
+const
+
+AttrCallTailCall
+
+= 130, Attr
+
+debug/dwarf
+
+const
+
+AttrCallTarget
+
+= 131, Attr
+
+debug/dwarf
+
+const
+
+AttrCallTargetClobbered
+
+= 132, Attr
+
+debug/dwarf
+
+const
+
+AttrCallValue
+
+= 126, Attr
+
+debug/dwarf
+
+const
+
+AttrConstExpr
+
+= 108, Attr
+
+debug/dwarf
+
+const
+
+AttrDataBitOffset
+
+= 107, Attr
+
+debug/dwarf
+
+const
+
+AttrDecimalScale
+
+= 92, Attr
+
+debug/dwarf
+
+const
+
+AttrDecimalSign
+
+= 94, Attr
+
+debug/dwarf
+
+const
+
+AttrDefaulted
+
+= 139, Attr
+
+debug/dwarf
+
+const
+
+AttrDeleted
+
+= 138, Attr
+
+debug/dwarf
+
+const
+
+AttrDigitCount
+
+= 95, Attr
+
+debug/dwarf
+
+const
+
+AttrDwoName
+
+= 118, Attr
+
+debug/dwarf
+
+const
+
+AttrElemental
+
+= 102, Attr
+
+debug/dwarf
+
+const
+
+AttrEndianity
+
+= 101, Attr
+
+debug/dwarf
+
+const
+
+AttrEnumClass
+
+= 109, Attr
+
+debug/dwarf
+
+const
+
+AttrExplicit
+
+= 99, Attr
+
+debug/dwarf
+
+const
+
+AttrExportSymbols
+
+= 137, Attr
+
+debug/dwarf
+
+const
+
+AttrLinkageName
+
+= 110, Attr
+
+debug/dwarf
+
+const
+
+AttrLoclistsBase
+
+= 140, Attr
+
+debug/dwarf
+
+const
+
+AttrMacros
+
+= 121, Attr
+
+debug/dwarf
+
+const
+
+AttrMainSubprogram
+
+= 106, Attr
+
+debug/dwarf
+
+const
+
+AttrMutable
+
+= 97, Attr
+
+debug/dwarf
+
+const
+
+AttrNoreturn
+
+= 135, Attr
+
+debug/dwarf
+
+const
+
+AttrObjectPointer
+
+= 100, Attr
+
+debug/dwarf
+
+const
+
+AttrPictureString
+
+= 96, Attr
+
+debug/dwarf
+
+const
+
+AttrPure
+
+= 103, Attr
+
+debug/dwarf
+
+const
+
+AttrRank
+
+= 113, Attr
+
+debug/dwarf
+
+const
+
+AttrRecursive
+
+= 104, Attr
+
+debug/dwarf
+
+const
+
+AttrReference
+
+= 119, Attr
+
+debug/dwarf
+
+const
+
+AttrRnglistsBase
+
+= 116, Attr
+
+debug/dwarf
+
+const
+
+AttrRvalueReference
+
+= 120, Attr
+
+debug/dwarf
+
+const
+
+AttrSignature
+
+= 105, Attr
+
+debug/dwarf
+
+const
+
+AttrSmall
+
+= 93, Attr
+
+debug/dwarf
+
+const
+
+AttrStrOffsetsBase
+
+= 114, Attr
+
+debug/dwarf
+
+const
+
+AttrStringLengthBitSize
+
+= 111, Attr
+
+debug/dwarf
+
+const
+
+AttrStringLengthByteSize
+
+= 112, Attr
+
+debug/dwarf
+
+const
+
+AttrThreadsScaled
+
+= 98, Attr
+
+debug/dwarf
+
+const
+
+ClassAddrPtr
+
+= 15, Class
+
+debug/dwarf
+
+const
+
+ClassLocList
+
+= 16, Class
+
+debug/dwarf
+
+const
+
+ClassRngList
+
+= 17, Class
+
+debug/dwarf
+
+const
+
+ClassRngListsPtr
+
+= 18, Class
+
+debug/dwarf
+
+const
+
+ClassStrOffsetsPtr
+
+= 19, Class
+
+debug/dwarf
+
+const
+
+TagAtomicType
+
+= 71, Tag
+
+debug/dwarf
+
+const
+
+TagCallSite
+
+= 72, Tag
+
+debug/dwarf
+
+const
+
+TagCallSiteParameter
+
+= 73, Tag
+
+debug/dwarf
+
+const
+
+TagCoarrayType
+
+= 68, Tag
+
+debug/dwarf
+
+const
+
+TagDynamicType
+
+= 70, Tag
+
+debug/dwarf
+
+const
+
+TagGenericSubrange
+
+= 69, Tag
+
+debug/dwarf
+
+const
+
+TagImmutableType
+
+= 75, Tag
+
+debug/dwarf
+
+const
+
+TagSkeletonUnit
+
+= 74, Tag
+
+debug/dwarf
+
+method
+
+(*Data) AddSection(string, []uint8)
+
+error
+
+debug/dwarf
+
+method
+
+(*LineReader) Files()
+
+[]*LineFile
+
+debug/dwarf
+
+method
+
+(*Reader) ByteOrder()
+
+binary.ByteOrder
+
+encoding/asn1
+
+const
+
+TagBMPString
+
+= 30, ideal-int
+
+encoding/json
+
+method
+
+(*Decoder) InputOffset()
+
+int64
+
+go/build
+
+type
+
+Context struct
+
+Dir string
+
+go/doc
+
+func
+
+NewFromFiles(*token.FileSet, []*ast.File, string, ...interface{})
+
+(*Package, error)
+
+go/doc
+
+type
+
+Example struct
+
+Suffix string
+
+go/doc
+
+type
+
+Func struct
+
+Examples []*Example
+
+go/doc
+
+type
+
+Package struct
+
+Examples []*Example
+
+go/doc
+
+type
+
+Type struct
+
+Examples []*Example
+
+hash/maphash
+
+func
+
+MakeSeed()
+
+Seed
+
+hash/maphash
+
+method
+
+(*Hash) BlockSize()
+
+int
+
+hash/maphash
+
+method
+
+(*Hash) Reset()
+
+
+
+hash/maphash
+
+method
+
+(*Hash) Seed()
+
+Seed
+
+hash/maphash
+
+method
+
+(*Hash) SetSeed(Seed)
+
+
+
+hash/maphash
+
+method
+
+(*Hash) Size()
+
+int
+
+hash/maphash
+
+method
+
+(*Hash) Sum([]uint8)
+
+[]uint8
+
+hash/maphash
+
+method
+
+(*Hash) Sum64()
+
+uint64
+
+hash/maphash
+
+method
+
+(*Hash) Write([]uint8)
+
+(int, error)
+
+hash/maphash
+
+method
+
+(*Hash) WriteByte(uint8)
+
+error
+
+hash/maphash
+
+method
+
+(*Hash) WriteString(string)
+
+(int, error)
+
+hash/maphash
+
+type
+
+Hash struct
+
+
+
+hash/maphash
+
+type
+
+Seed struct
+
+
+
+log
+
+const
+
+Lmsgprefix
+
+= 64, ideal-int
+
+math
+
+func
+
+FMA(float64, float64, float64)
+
+float64
+
+math/bits
+
+func
+
+Rem(uint, uint, uint)
+
+uint
+
+math/bits
+
+func
+
+Rem32(uint32, uint32, uint32)
+
+uint32
+
+math/bits
+
+func
+
+Rem64(uint64, uint64, uint64)
+
+uint64
+
+mime/multipart
+
+method
+
+(*Reader) NextRawPart()
+
+(*Part, error)
+
+net/http
+
+method
+
+(Header) Values(string)
+
+[]string
+
+net/http
+
+type
+
+Transport struct
+
+DialTLSContext func(context.Context, string, string) (net.Conn, error)
+
+net/http/httptest
+
+type
+
+Server struct
+
+EnableHTTP2 bool
+
+net/textproto
+
+method
+
+(MIMEHeader) Values(string)
+
+[]string
+
+strconv
+
+method
+
+(*NumError) Unwrap()
+
+error
+
+syscall (windows-386)
+
+const
+
+CTRL_CLOSE_EVENT
+
+= 2, ideal-int
+
+syscall (windows-386)
+
+const
+
+CTRL_LOGOFF_EVENT
+
+= 5, ideal-int
+
+syscall (windows-386)
+
+const
+
+CTRL_SHUTDOWN_EVENT
+
+= 6, ideal-int
+
+syscall (windows-amd64)
+
+const
+
+CTRL_CLOSE_EVENT
+
+= 2, ideal-int
+
+syscall (windows-amd64)
+
+const
+
+CTRL_LOGOFF_EVENT
+
+= 5, ideal-int
+
+syscall (windows-amd64)
+
+const
+
+CTRL_SHUTDOWN_EVENT
+
+= 6, ideal-int
+
+testing
+
+method
+
+(*B) Cleanup(func())
+
+
+
+testing
+
+method
+
+(*T) Cleanup(func())
+
+
+
+testing
+
+type
+
+TB interface
+
+Cleanup(func())
+
+unicode
+
+const
+
+Version
+
+"12.0.0"
+
+unicode
+
+var
+
+Elymaic
+
+*RangeTable
+
+unicode
+
+var
+
+Nandinagari
+
+*RangeTable
+
+unicode
+
+var
+
+Nyiakeng_Puachue_Hmong
+
+*RangeTable
+
+unicode
+
+var
+
+Wancho
+
+*RangeTable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

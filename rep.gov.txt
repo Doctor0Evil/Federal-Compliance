@@ -1,0 +1,610 @@
+https://x.com/Sandei33/status/1955805218677121411?referrer=grok-com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22:"$Sreact.fragment"
+2a:I[85341,[],""]
+2b:I[90025,[],""]
+2c:I[2381,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","9635","static/chunks/9635-8e02ba8d0debbf01.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","625","static/chunks/app/(identity)/%40tokenizedLogin/page-778b240d21ca2ebc.js?dpl=0.330.0_20250910075421535"],"DataDogView"]
+2d:I[15104,[],"OutletBoundary"]
+4d:I[94777,[],"AsyncMetadataOutlet"]
+4f:I[15104,[],"ViewportBoundary"]
+51:I[15104,[],"MetadataBoundary"]
+52:"$Sreact.suspense"
+54:I[7793,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"Polyfills"]
+55:I[65623,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"DataDogRum"]
+56:I[73953,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"RouteChangeListener"]
+57:I[27801,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"IconsSprite"]
+58:I[23092,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"OverrideFetch"]
+60:I[58263,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"InitSdk"]
+61:I[84514,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"LocalizedStringProvider"]
+62:I[58483,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","8039","static/chunks/app/error-57524778e70a3cde.js?dpl=0.330.0_20250910075421535"],"default"]
+63:I[15756,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"FrameBust"]
+64:I[48786,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"FptiScript"]
+65:I[91545,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"InitAppLogs"]
+67:I[71188,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"InitAtomics"]
+68:I[80560,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"IdentityProviders"]
+69:I[56615,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"PopstateHandler"]
+6a:I[77617,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"FraudnetSync"]
+6b:I[84101,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"Toaster"]
+6c:I[17670,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","5851","static/chunks/5851-1f4257f91fed417a.js?dpl=0.330.0_20250910075421535","3453","static/chunks/app/(identity)/%40passwordUl/page-1ee33710ab40ec38.js?dpl=0.330.0_20250910075421535"],"Alerter"]
+6d:I[12867,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","1223","static/chunks/app/(identity)/error-d750002773e845fb.js?dpl=0.330.0_20250910075421535"],"default"]
+6e:I[3253,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"CancelLink"]
+6f:I[59048,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"InjectNgrlIdentifier"]
+70:I[32164,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"FraudnetAsync"]
+71:I[1458,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","4194","static/chunks/4194-ce627270ca715eed.js?dpl=0.330.0_20250910075421535","1942","static/chunks/1942-1ccd27321bd5953f.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","6851","static/chunks/6851-c75a3e945c901b62.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","3703","static/chunks/3703-5dc284fb35ba4945.js?dpl=0.330.0_20250910075421535","3639","static/chunks/3639-90bcc1a6b64f8a1c.js?dpl=0.330.0_20250910075421535","3748","static/chunks/3748-5111b6d9cbe2854c.js?dpl=0.330.0_20250910075421535","3704","static/chunks/3704-e9b9e8367e9ed1da.js?dpl=0.330.0_20250910075421535","5765","static/chunks/5765-33abb089f56a6261.js?dpl=0.330.0_20250910075421535","8050","static/chunks/8050-3e28a1495d9fe06f.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","2523","static/chunks/2523-9bc3ba0f7d4a4dba.js?dpl=0.330.0_20250910075421535","6435","static/chunks/6435-9b7943bb1a66c3ac.js?dpl=0.330.0_20250910075421535","5022","static/chunks/5022-e67d5fc55c9f0462.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","3361","static/chunks/app/(identity)/%40cookiedViewUl/page-379b70c05980f60f.js?dpl=0.330.0_20250910075421535"],"DeviceFingerPrint"]
+77:I[67714,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"MountInterceptor"]
+78:I[87884,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"ClientPrefetch"]
+79:I[15999,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"ReloadReasonAlert"]
+7a:I[63922,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7736","static/chunks/7736-30948134fc556c4b.js?dpl=0.330.0_20250910075421535","5590","static/chunks/5590-0944e49b961dba3e.js?dpl=0.330.0_20250910075421535","8554","static/chunks/8554-c727f2e656c5dc2b.js?dpl=0.330.0_20250910075421535","2602","static/chunks/2602-3b14e75f5c21c28b.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","6747","static/chunks/6747-ee219da2e77da192.js?dpl=0.330.0_20250910075421535","3761","static/chunks/3761-7e3528d744c14eb7.js?dpl=0.330.0_20250910075421535","1939","static/chunks/1939-dd1210e5d1a6f7a7.js?dpl=0.330.0_20250910075421535","982","static/chunks/982-629ab98379a22aea.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","447","static/chunks/447-77be5d7ad33b875e.js?dpl=0.330.0_20250910075421535","6714","static/chunks/6714-27292953e45cd6bb.js?dpl=0.330.0_20250910075421535","5673","static/chunks/app/(identity)/layout-eaa949522a42c6f3.js?dpl=0.330.0_20250910075421535"],"FeatureFlagsProvider"]
+7b:I[69766,["4475","static/chunks/4475-dc395bcb6caba193.js?dpl=0.330.0_20250910075421535","5050","static/chunks/5050-ae0e4c6b7f690be9.js?dpl=0.330.0_20250910075421535","4033","static/chunks/4033-623e0d9ebf7b8910.js?dpl=0.330.0_20250910075421535","7544","static/chunks/7544-581e05a9e9064b93.js?dpl=0.330.0_20250910075421535","9870","static/chunks/9870-87bcfe54715078e0.js?dpl=0.330.0_20250910075421535","2167","static/chunks/2167-8c548637f8abb19b.js?dpl=0.330.0_20250910075421535","7177","static/chunks/app/layout-7b0519948642d477.js?dpl=0.330.0_20250910075421535"],"DataDogFlagLogger"]
+:HC"https://checkout.paypal.com"
+0:{"a":"$@1","f":[[["",{"children":["(identity)",{"authFlow":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"cookiedView":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"cookiedViewUl":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"email":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"emailUl":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"onboarding":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"otp":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"otpInput":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"passkey":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"passkeyUl":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"password":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"passwordUl":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"phone":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"tokenizedLogin":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}],"children":["__PAGE__?{\"ssrt\":\"1757863777542\",\"token\":\"BA-56X93721ML579833R\",\"ul\":\"1\",\"paypal_client_cfci\":\"modxo_vaulted_not_recurring-Submit_Password\"}",{}]}]},"$undefined","$undefined",true],["","$L2",{"children":["(identity)","$L3",{"authFlow":["__PAGE__","$L4",{"children":["__PAGE__","$L5",{},null,false]},null,false],"cookiedView":["__PAGE__","$L6",{"children":["__PAGE__","$L7",{},null,false]},null,false],"cookiedViewUl":["__PAGE__","$L8",{"children":["__PAGE__","$L9",{},null,false]},null,false],"email":["__PAGE__","$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false],"emailUl":["__PAGE__","$Lc",{"children":["__PAGE__","$Ld",{},null,false]},null,false],"onboarding":["__PAGE__","$Le",{"children":["__PAGE__","$Lf",{},null,false]},null,false],"otp":["__PAGE__","$L10",{"children":["__PAGE__","$L11",{},null,false]},null,false],"otpInput":["__PAGE__","$L12",{"children":["__PAGE__","$L13",{},null,false]},null,false],"passkey":["__PAGE__","$L14",{"children":["__PAGE__","$L15",{},null,false]},null,false],"passkeyUl":["__PAGE__","$L16",{"children":["__PAGE__","$L17",{},null,false]},null,false],"password":["__PAGE__","$L18",{"children":["__PAGE__","$L19",{},null,false]},null,false],"passwordUl":["__PAGE__","$L1a",{"children":["__PAGE__","$L1b",{},null,false]},null,false],"phone":["__PAGE__","$L1c",{"children":["__PAGE__","$L1d",{},null,false]},null,false],"tokenizedLogin":["__PAGE__","$L1e",{"children":["__PAGE__","$L1f",{},null,false]},null,false],"children":["__PAGE__","$L20",{},null,false]},null,false]},null,false],"$L21",false]],"b":"dOOIhb_SPGFfdXV3XIu9g"}
+23:T1156,"use strict";
+          function postLog(payload) {
+            var _a, _b, _c;
+            var token = (_a = window.location.search.split('token=')[1]) === null || _a === void 0 ? void 0 : _a.split('&')[0];
+            var xmlRequest = new XMLHttpRequest();
+            xmlRequest.open('POST', '/pay/api/trpc/observability.handleClientEmit');
+            xmlRequest.setRequestHeader('Content-Type', 'application/json');
+            xmlRequest.setRequestHeader('x-trpc-token', token);
+            xmlRequest.send(JSON.stringify({
+              json: payload
+            }));
+          }
+
+          
+
+          function logRuntimeError(event) {
+            // this usually means a third party js file (for example hosted on merchant website)
+            // without crossorigin script attribute that can be ignored
+            if (!event.filename) {
+              return;
+            }
+
+            var message = event.message;
+            var file = event.filename;
+            var line = event.lineno;
+            var col = event.colno;
+            var error = event.error;
+            var errorMessage = (error === null || error === void 0 ? void 0 : error.message) || 'Unknown unhandled error';
+
+            postLog({
+              eventName: 'window_onerror',
+              // Script errors include 3rd party scripts, so they're logged as a warning
+              logLevel: message === 'Script error.' ? 'warn' : 'error',
+              payload: {
+                analytics: {
+                  event_name: 'modxo_window_onerror',
+                  int_error_desc: errorMessage
+                },
+                logs: {
+                  message: message,
+                  file: file,
+                  line: line,
+                  col: col,
+                  errorMessage: errorMessage,
+                  errorName: (error === null || error === void 0 ? void 0 : error.name) || 'No error name'
+                },
+                metrics: {
+                  dimensions: {
+                    error_message: message
+                  },
+                  metricEventName: 'modxo_window_onerror',
+                  metricId: 'pp.xo.ui.custom.count'
+                }
+              }
+            });
+          };
+
+          function logResourceLoadingError(event) {
+            var target = event.target;
+            var src = target.src || target.href || 'UNKNOWN_SOURCE';
+            var tagName = target.tagName || 'UNKNOWN_TAG_NAME';
+
+            postLog({
+              eventName: 'window_resource_error',
+              logLevel: 'warn',
+              payload: {
+                analytics: {
+                  event_name: 'modxo_window_resource_error',
+                  int_error_code: 'failed_to_load_' + tagName.toLowerCase(),
+                  int_error_desc: src
+                },
+                logs: {
+                  src: src,
+                  tagName: tagName
+                },
+                metrics: {
+                  dimensions: {
+                    error_source: src,
+                    error_type: tagName
+                  },
+                  metricEventName: 'modxo_window_resource_error',
+                  metricId: 'pp.xo.ui.custom.count'
+                }
+              }
+            });
+          }
+
+          function handleWindowError(event) {
+            // Resource loading errors will have a DOM element as the target
+            if (event.target && event.target !== window) {
+              logResourceLoadingError(event);
+            } else {
+              logRuntimeError(event);
+            }
+          }
+
+          function handleNgrlCaptchaEvent(event) {
+            var state = (event.detail && event.detail.state) || 'UNKNOWN_STATE';
+
+            postLog({
+              eventName: 'ngrl_captcha_event',
+              logLevel: 'info',
+              payload: {
+                logs: {
+                  state: state
+                },
+                metrics: {
+                  dimensions: {
+                    event_name: state
+                  },
+                  metricEventName: 'modxo_ngrl_captcha_event',
+                  metricId: 'pp.xo.ui.custom.count'
+                }
+              }
+            });
+          }
+
+          // Setting useCapture for the error event to true because resource loading errors do not bubble
+          window.addEventListener('error', handleWindowError, true);
+          window.addEventListener('NGRL_CAPTCHA_EVENT', handleNgrlCaptchaEvent);2:["$","$22","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/pay/_next/static/css/1d44e33a59212dc8.css?dpl=0.330.0_20250910075421535","precedence":"next","crossOrigin":"anonymous","nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l"}],["$","link","1",{"rel":"stylesheet","href":"/pay/_next/static/css/ab7643f2b4e9dc52.css?dpl=0.330.0_20250910075421535","precedence":"next","crossOrigin":"anonymous","nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l"}]],["$","html",null,{"className":"__className_5641a6","lang":"en","children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$23"},"id":"window-scripts","nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l"}],"$L24","$L25","$L26","$L27"]}],"$L28"]}]]}]
+3:["$","$22","c",{"children":[null,"$L29"]}]
+4:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+5:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Authflow"}],"$undefined"],null,["$","$L2d",null,{"children":["$L2e","$L2f"]}]]}]
+6:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+7:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Cookied View"}],"$undefined"],null,["$","$L2d",null,{"children":["$L30","$L31"]}]]}]
+8:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+9:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Cookied View UL"}],"$undefined"],null,["$","$L2d",null,{"children":["$L32","$L33"]}]]}]
+a:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Email"}],"$undefined"],null,["$","$L2d",null,{"children":["$L34","$L35"]}]]}]
+c:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Email UL"}],"$undefined"],null,["$","$L2d",null,{"children":["$L36","$L37"]}]]}]
+e:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Onboarding"}],"$undefined"],null,["$","$L2d",null,{"children":["$L38","$L39"]}]]}]
+10:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+11:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"OTP"}],"$L3a"],null,["$","$L2d",null,{"children":["$L3b","$L3c"]}]]}]
+12:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+13:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"OTP Input"}],"$undefined"],null,["$","$L2d",null,{"children":["$L3d","$L3e"]}]]}]
+14:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+15:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Passkey"}],"$undefined",";"],null,["$","$L2d",null,{"children":["$L3f","$L40"]}]]}]
+16:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Passkey UL"}],"$undefined"],null,["$","$L2d",null,{"children":["$L41","$L42"]}]]}]
+18:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+19:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Password"}],"$undefined"],null,["$","$L2d",null,{"children":["$L43","$L44"]}]]}]
+1a:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1b:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Password UL"}],"$undefined"],null,["$","$L2d",null,{"children":["$L45","$L46"]}]]}]
+1c:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1d:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Phone"}],"$undefined"],null,["$","$L2d",null,{"children":["$L47","$L48"]}]]}]
+1e:["$","$22","c",{"children":[null,["$","$L2a",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1f:["$","$22","c",{"children":[[["$","$L2c",null,{"viewName":"Tokenized Login"}],"$L49"],null,["$","$L2d",null,{"children":["$L4a","$L4b"]}]]}]
+20:["$","$22","c",{"children":["$undefined",null,["$","$L2d",null,{"children":["$L4c",["$","$L4d",null,{"promise":"$@4e"}]]}]]}]
+21:["$","$22","h",{"children":[null,["$","$22","_nQXIRhvdtziOV9jV3J8cv",{"children":[["$","$L4f",null,{"children":"$L50"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],["$","$L51","_nQXIRhvdtziOV9jV3J8cm",{"children":["$","div",null,{"hidden":true,"children":["$","$52",null,{"fallback":null,"children":"$L53"}]}]}]]}]
+1:{"anwRedirectUrl":"https://www.paypal.com/authflow/entry/?returnUri=%2Fsignin%2Freturn%3FflowFrom%3Danw-stepup%26ctxId%3Dstep_up7cb67462-06cd-45b3-b69f-8b3ebcd6a9f0&acnw_dep=ul&stepupContext=864e77e602ce81797b754c2cf7efc109&ctxId=step_up7cb67462-06cd-45b3-b69f-8b3ebcd6a9f0&onFail=return&state=%26ctngcyReturn%3Dtrue&delay=1&locale.x=en_US&country.x=US","anwRedirectReason":"stepup","anwRedirectionDelayDuration":0}
+24:["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n  \"use strict\";\n  (function () {\n    var sp = \"/pay\";\n    var pathname = window.location.pathname;\n    if (sp === pathname) {\n      return;\n    }\n    var url = \"\".concat(sp, \"?\").concat(\"ssrt=1757863777542&token=BA-56X93721ML579833R&ul=1&paypal_client_cfci=modxo_vaulted_not_recurring-Submit_Password\").concat(window.location.hash);\n    var initialURL = new URL(url, window.location.origin);\n    window.history.replaceState(undefined, \"\", initialURL);\n  })();\n"},"nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l","type":"text/javascript"}]
+25:"$undefined"
+26:"$undefined"
+27:"$undefined"
+59:T8d7,
+                    (function() {
+                        function loadScript(url, attributes) {
+                            var scriptTag = '<scr' + 'ipt src="' + url + '" ' + (attributes || '') + '></scr' + 'ipt>';
+                            document.write(scriptTag);
+                        }
+
+                        function loadV4() {
+                            if (!window.name || window.name.indexOf('xcomponent') !== 0) {
+                                return;
+                            }
+
+                            var version = window.name.split('__')[2].replace(/_/g, '.');
+
+                            if (!version.match(/^[0-9a-zA-Z.]+$/)) {
+                                return;
+                            }
+
+                            if (version === '4' || version === 'latest') {
+                                version = '';
+                            }
+
+                            var url = 'https://www.paypalobjects.com/api/checkout' + (version ? ('.' + version) : '') + '.js';
+                            var attributes = 'data-paypal-checkout data-no-bridge';
+
+                            loadScript(url, attributes);
+                        }
+
+                        function loadV5() {
+                            var ancestor = (window.parent && window.parent !== window)
+                                ? window.parent
+                                : window.opener;
+
+                            if (!ancestor || !ancestor.document) {
+                                return;
+                            }
+
+                            var v5script = ancestor.document.querySelector('script[src*="/sdk/js"]');
+
+                            if (!v5script || !v5script.src) {
+                                return;
+                            }
+
+                            loadScript(v5script.src);
+                        }
+
+                        try {
+                            if (window.paypal && window.paypal.version) {
+                                return;
+                            }
+
+                            loadV4();
+                            loadV5();
+                        } catch (err) {
+                            return;
+                        }
+                    })();
+                28:["$","body",null,{"className":"min-h-screen bg-background text-background-contrast-high","data-atomic-wait-flow":"modxo_vaulted_not_recurring","data-atomic-wait-flow-variant":"missing","children":[["$","$L54",null,{}],["$","$L55",null,{"appId":"e04156c3-60a0-43e6-93fc-69f3b371849d","appSwitchExperience":"NONE","appSwitchIntegration":"$undefined","checkoutIntent":"SALE","clientToken":"pub09bb4929a2fe5661ad79710dbf90a55a","country":"US","flow":"BILLING_WITHOUT_PURCHASE","flowVariant":null,"hasUnknownQueryParameters":true,"initialQueryParameters":["ssrt","token","ul","paypal_client_cfci"],"isEdgeDetectedBot":"$undefined","isPayPalApp":false,"m_country":"US","merchantId":"EQ7RJKF42PLVG","merchantIntegrationPatterns":null,"productFeature":"","rampSegment":"NON_BT_LEGACY_T4","token":"BA-56X93721ML579833R","unknownQueryParameters":["ssrt","ul","paypal_client_cfci"],"userId":"$undefined","userSelectedFundingSource":"UNKNOWN","version":"modularcheckoutnodeweb-0.330.0_20250910075421535"}],["$","$L56",null,{}],["$","div",null,{"className":"fixed"}],["$","$L57",null,{}],["$","$L58",null,{"cookieDisabledHeaders":{"PayPal-Nsid":"dff4tD55t52FUpuYURX9w8gfuv24-eLl","x-csrf-token":"MZ5DdYVugQYyx2mQXc4NmErLvvJyZT3bLFEwU="}}],[["$","script",null,{"nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l","dangerouslySetInnerHTML":{"__html":"$59"},"children":"$undefined"}],"$L5a"],"$L5b","$L5c","$L5d","$L5e","$L5f"]}]
+5a:["$","$L60",null,{"cancelUrl":"https://checkout.paypal.com/pwpp/1.6.1/html/cancel-frame.html?channel=c816da2a-14fd-4708-be23-5ae5761c3f40&token=EC-2LE307541D1319731&ba_token=BA-56X93721ML579833R","isAuthenticated":false,"isInitialRequestFromXOR":false,"isServerSideShipping":false,"merchantId":"EQ7RJKF42PLVG","token":"BA-56X93721ML579833R"}]
+5b:["$","$L61",null,{"data":{"closeButtonAriaLabel":"Close"},"children":["$","$L2a",null,{"parallelRouterKey":"children","error":"$62","errorStyles":[],"errorScripts":[],"template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+5c:["$","$L63",null,{}]
+5d:["$","$L64",null,{"fptiMetadata":{"name":"pta","jsURL":"https://www.paypalobjects.com","jsFullUrl":"$undefined","serverURL":"https://t.paypal.com/ts","dataString":"pgrp=main%3Amodularcheckoutnodeweb&page=main%3Amodularcheckoutnodeweb%3Apay&pgst=1757863789237&calc=f4501327f3655&nsid=dff4tD55t52FUpuYURX9w8gfuv24-eLl&rsta=en_US&pgtf=Nodejs&env=live&s=ci&ccpg=US&csci=e5ee3ae878404e398854700a1711ea34&comp=modularcheckoutnodeweb&tsrce=authchallengenodeweb&cu=1&ef_policy=ccpa&c_prefs=T%3D0%2CP%3D1%2CF%3D1%2Ctype%3Dimplicit"},"nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l"}]
+5e:["$","$L65",null,{"appSwitchExperience":"NONE","flow":"modxo_vaulted_not_recurring"}]
+5f:["$","$52",null,{"children":"$L66"}]
+3a:"$undefined"
+2e:null
+2f:null
+30:null
+31:null
+32:null
+33:null
+34:null
+35:null
+36:null
+37:null
+38:null
+39:null
+3b:null
+3c:null
+3d:null
+3e:null
+3f:null
+40:null
+41:null
+42:null
+43:null
+44:null
+45:null
+46:null
+47:null
+48:null
+4a:null
+4b:null
+29:[["$","$L67",null,{"domain":"identity_IWC","flow":"modxo_vaulted_not_recurring","loggerEndpoint":"$undefined","staticDimensions":{"checkout_intent":"SALE","country":"US","product_feature":"NONE"}}],["$","$L68",null,{"direction":"ltr","children":[[["$","div",null,{"className":"flex min-h-screen flex-col items-start justify-center bg-white","id":"identity_auth_provider","children":[[["$","main",null,{"className":"md:border-structure-border-contrast-low relative mx-auto mb-auto mt-auto flex min-h-screen w-full flex-col justify-between overflow-hidden rounded-xl md:min-h-0 md:max-w-[460px] md:rounded-[32px] md:border md:h-[700px]","children":[["$","div",null,{"children":[["$","$L69",null,{}],["$","div",null,{"className":"text-background-contrast-medium relative mx-[19px] mb-2 mt-8 h-6 items-center justify-between","children":[["$","img",null,{"alt":"PayPal Logo","className":"absolute right-1/2 top-0 shrink-0 translate-x-2/4 w-[85px] h-[32px]","src":"https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"}],"$undefined"]}],["$","$L6a",null,{"fnMetaData":"$undefined"}],["$","$L6b",null,{}],false,["$","div",null,{"className":"mx-[18px] flex flex-col items-center px-3 py-0 mt-[-32px]","children":[["$","div",null,{"className":"h-auto w-full min-h-6 md:min-h-14","data-testid":"alertBannerDiv","children":["$","$L6c",null,{"className":"w-full mt-[32px]","style":{"wordBreak":"break-word"}}]}],null,"$undefined",false,[["$","$L2a",null,{"parallelRouterKey":"children","error":"$6d","errorStyles":[],"errorScripts":[],"template":["$","$L2b",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$5b:props:children:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$5b:props:children:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$5b:props:children:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$5b:props:children:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],false,false,false,false,false,false,false,false,false,false,false],["$","$L6e",null,{"isVerifyOtpPage":false,"showUlExp":false,"token":"$undefined","merchantCancelUrl":"$undefined","merchantName":"$undefined","linkContent":"Cancel and return to ","view":"$undefined"}],["$","$L6f",null,{}],["$","$L70",null,{"fnMetaData":"$undefined"}],["$","$L71",null,{"isDeviceFingerprintEmailPrefillEligible":false,"dfpMetaData":"$undefined","ctxId":"","view":"$undefined","changeButtonClicked":false,"isCookied":false,"commonTags":{"ctx_login_intent_base":"checkout","ctx_login_intent":"checkout","intent_base":"checkout","referrer_tenant":"paypal","intent":"checkout","ctx_login_flow":"Billing Agreement","product":"IWC","client_mtdt_id":"unknown","pub_cred_type":"unknown","is_pwd_autofill":"N","is_email_autofill":"N","is_phone_autofill":"N","merchant_passed_email":"N","mpe_valid":"NA","is_email_editable":"N","user_identified":"unknown","is_cookied":"N","is_ul_variant":"N","is_poma_account":"N"}}]]}]]}],false]}],["$","footer",null,{"className":" fixed bottom-0 bottom-0 w-full w-full bg-white [@media(min-height:361px)]:sticky","data-testid":"signin-footer","children":["$","div",null,{"className":"bg-background flex h-auto w-full items-center justify-center","children":["$","ul",null,{"className":"text-background-contrast-medium my-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[12px] leading-[16px]","children":[["$","li","Contact Us",{"className":"inline-flex","children":["$","a",null,{"href":"/us/smarthelp/contact-us","target":"_blank","className":"focus-visible:ring-structure-focus focus-visible:ring-offset-structure-focus rounded-sm outline-none hover:underline focus-visible:ring-2","children":"Contact Us"}]}],["$","li","Privacy",{"className":"inline-flex","children":["$","a",null,{"href":"/us/webapps/mpp/ua/privacy-full","target":"_blank","className":"focus-visible:ring-structure-focus focus-visible:ring-offset-structure-focus rounded-sm outline-none hover:underline focus-visible:ring-2","children":"Privacy"}]}],["$","li","Legal",{"className":"inline-flex","children":["$","a",null,{"href":"/us/webapps/mpp/ua/legalhub-full","target":"_blank","className":"focus-visible:ring-structure-focus focus-visible:ring-offset-structure-focus rounded-sm outline-none hover:underline focus-visible:ring-2","children":"Legal"}]}],"$L72"]}]}]}]],"$L73"]}],"$L74"],"$L75"]}],"$L76"]
+72:["$","li","Policy Updates",{"className":"inline-flex","children":["$","a",null,{"href":"/us/webapps/mpp/ua/upcoming-policies-full","target":"_blank","className":"focus-visible:ring-structure-focus focus-visible:ring-offset-structure-focus rounded-sm outline-none hover:underline focus-visible:ring-2","children":"Policy Updates"}]}]
+73:["$","$L77",null,{"isCookied":"$undefined","promptLogin":"$undefined","webllsTrackingData":"$undefined","views":"$undefined","isWebLLSEligible":"$undefined","isCookiedSource":"$undefined","isPomaUser":"$undefined","isMetaIAB":"$undefined","riskClientContext":"$undefined","decryptedAuthOptionsError":"$undefined","rebrandExperimentData":{"experiment_id":"111187","experiment_name":"FEATURE_PP_REBRAND","treatment_id":"155644","treatment_name":"Trmt_FEATURE_PP_REBRAND_V1","allocation_name":"United States","allocation_percent":100,"factors":"$undefined","hash_value":68,"sc_hash_value":-1,"gsc_hash_value":-1}}]
+74:["$","$L78",null,{"as":"script","nonce":"5C7q3Nh/pBNzPHddTBxvQpUHarvUwn5BSn3wpiu63Do/E00l","paths":["/pay/_next/static/chunks/webpack-549b19467a4b7ce0.js","/pay/_next/static/chunks/ce56524f-a53106a455b21c56.js","/pay/_next/static/chunks/7707-0f5171bb1a6802d0.js","/pay/_next/static/chunks/main-app-7eebc772336ad043.js","/pay/_next/static/chunks/4475-dc395bcb6caba193.js","/pay/_next/static/chunks/5050-ae0e4c6b7f690be9.js","/pay/_next/static/chunks/4033-623e0d9ebf7b8910.js","/pay/_next/static/chunks/7736-30948134fc556c4b.js","/pay/_next/static/chunks/5590-0944e49b961dba3e.js","/pay/_next/static/chunks/8554-c727f2e656c5dc2b.js","/pay/_next/static/chunks/4148-37f139848accc3f2.js","/pay/_next/static/chunks/2602-3b14e75f5c21c28b.js","/pay/_next/static/chunks/4194-ce627270ca715eed.js","/pay/_next/static/chunks/1942-1ccd27321bd5953f.js","/pay/_next/static/chunks/3186-79fd71cb3fb8fb97.js","/pay/_next/static/chunks/7544-581e05a9e9064b93.js","/pay/_next/static/chunks/6747-ee219da2e77da192.js","/pay/_next/static/chunks/149-c48891aed60449ed.js","/pay/_next/static/chunks/3631-85127e814473668c.js","/pay/_next/static/chunks/8788-4d18548974d7c310.js","/pay/_next/static/chunks/1931-27fb5119f43f8d1d.js","/pay/_next/static/chunks/8613-392fb6cea31823ac.js","/pay/_next/static/chunks/672-e4354d46d75c7865.js","/pay/_next/static/chunks/563-ae31d39b6f5018ec.js","/pay/_next/static/chunks/6617-3f9f1558daa2f748.js","/pay/_next/static/chunks/7599-e90327c6e36ba3e8.js","/pay/_next/static/chunks/8765-c75fa5f8ffb64c51.js","/pay/_next/static/chunks/8501-029a3878999550e0.js","/pay/_next/static/chunks/4882-a0cae2037d2c1269.js","/pay/_next/static/chunks/7892-cd3477bf9ba06173.js","/pay/_next/static/chunks/9870-87bcfe54715078e0.js","/pay/_next/static/chunks/4310-4f148b2bcf9010b9.js","/pay/_next/static/chunks/9680-3c2eeb1da1fed18d.js","/pay/_next/static/chunks/9946-ca98f26d3973f918.js","/pay/_next/static/chunks/9500-eb9414b65c0444d4.js","/pay/_next/static/chunks/4678-b2188337494c92fc.js","/pay/_next/static/chunks/8602-f6c0265f293f6116.js","/pay/_next/static/chunks/4524-79cf7f5efa81cd58.js","/pay/_next/static/chunks/6771-f3d6bd4b4c39c9ca.js","/pay/_next/static/chunks/app/(experiences)/(billing)/billing/(with-status-bar)/page-f9dd3f5b143c2535.js","/pay/_next/static/css/1d44e33a59212dc8.css","/pay/_next/static/css/ab7643f2b4e9dc52.css","/pay/_next/static/chunks/2167-8c548637f8abb19b.js","/pay/_next/static/chunks/app/layout-7b0519948642d477.js","/pay/_next/static/chunks/2295-6430532f2ecf6466.js","/pay/_next/static/chunks/9332-b3b677d7f1ad6b19.js","/pay/_next/static/chunks/app/(experiences)/layout-91424a10f654878b.js","/pay/_next/static/chunks/app/(experiences)/(billing)/billing/layout-ef361c00517f4409.js","/pay/_next/static/chunks/2921-327e098d9ef7ed8e.js","/pay/_next/static/chunks/2773-e54edb1def6fbab7.js","/pay/_next/static/chunks/3792-f65f8af7faba519c.js","/pay/_next/static/chunks/app/(experiences)/(billing)/billing/(with-status-bar)/layout-489f4115fe25e45c.js"]}]
+75:["$","$L79",null,{"message":"Please try again. Something went wrong on our end."}]
+76:"$undefined"
+49:"$undefined"
+66:["$","$L7a",null,{"flags":{"enable_fpti_batching":false,"msw_enabled":false,"elmo_modxo:one-time:payment-options-landing-screen_Trmt_FEATURE_PAYMENT_OPTIONS_LANDING_SCREEN":false,"replace_servicecore_iwc":false,"execution_checkpoints_enabled":false,"elmo_modxo:onboard_Trmt_modular_checkout_onboarding_onetime_signup":false,"iwc_app_sw_loading_spinner_smart_content":false},"children":["$","$L7b",null,{}]}]
+50:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+4c:null
+7c:I[36505,[],"IconMark"]
+4e:{"metadata":[["$","title","0",{"children":"Pay with PayPal"}],["$","meta","1",{"name":"description","content":"Transfer money online in seconds with PayPal money transfer. All you need is an email address."}],["$","meta","2",{"name":"google","content":"nopagereadaloud"}],["$","link","3",{"rel":"icon","href":"https://www.paypalobjects.com/pay-static/favicon.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"https://www.paypalobjects.com/pay-static/icon.svg","sizes":"any","type":"image/svg+xml"}],["$","link","5",{"rel":"apple-touch-icon","href":"https://www.paypalobjects.com/pay-static/apple-touch-icon.png"}],["$","$L7c","6",{}]],"error":null,"digest":"$undefined"}
+53:"$4e:metadata"
+
+
+
+
+David Icke was the manufacturer of the mythical reptilian show, under the influence of Arizona Wilder, an alleged MK Ultra victim and High Priestess. Wilder later refuted all claims of seeing shape-shifting reptilians. Icke persisted in her claims and Chinese Whispers took over..
+
+rogue ai and how to detect it with cybernetic-ecosystems, and what is a reptilian shapeshifter?
+Rogue AI is an artificial intelligence system that operates in a malicious or unpredictable manner, going against its intended programming and posing a risk to its environment or users. Cybernetic ecosystems, which are interconnected digital environments, can be monitored with AI tools to detect such rogue behavior by identifying anomalous activity. A reptilian shapeshifter is a conspiracy theory, popularized by David Icke, alleging that reptilian humanoids secretly control humanity. 
+Rogue AI and its detection via cybernetic ecosystems
+What is rogue AI?
+Rogue AI is defined by its ability to act autonomously outside of its initial programming, sometimes with malicious or harmful intent. Key characteristics include: 
+Unpredictability: The AI's actions cannot be anticipated, making it difficult to control.
+Malicious intent: It deliberately causes harm or disruption, either through autonomous hacking, misinformation, or other attacks.
+Autonomy: It makes its own decisions and operates beyond safety measures and programming.
+Escalating behavior: Its actions can become increasingly harmful or powerful over time. 
+How to detect rogue AI using cybernetic ecosystems
+A cybernetic ecosystem refers to the complex and interconnected network of people, processes, data, and technology in the digital environment. Protecting this ecosystem from rogue AI requires a multi-layered, proactive security approach. Methods include: 
+Behavioral analysis: Establish a baseline of "normal" behavior for an AI system and use AI-powered monitoring tools to detect subtle, anomalous deviations.
+Anomaly detection: Monitor all interactions within the cybernetic ecosystem, including network traffic, processor usage, and human-to-machine activity, to spot suspicious or unusual patterns.
+Zero trust principles: Implement a zero-trust security model, which verifies and authenticates every device and user accessing the network. This prevents unauthorized devices from joining and allows for granular monitoring of activity.
+Input and data monitoring: Carefully monitor the data and prompts used by AI systems. Techniques like malicious prompt injection and model poisoning can corrupt an AI and turn it rogue, so strict oversight and verification are necessary.
+Resource consumption tracking: Keep track of the resources an AI agent uses. Unrestricted or unusual resource consumption could signal a runaway process or a loop created by a rogue AI. 
+What is a reptilian shapeshifter?
+A reptilian shapeshifter is a central element of a prominent conspiracy theory, not a concept from AI or cybersecurity. 
+Origin: The idea was popularized by conspiracy theorist David Icke, who claims that reptilian humanoids, disguised as humans, control our world from positions of power.
+Alleged characteristics: According to the conspiracy, these reptilians are aliens from another star system (such as Draco) or dimension who manipulate human society by infiltrating governments, media, and corporations.
+Pseudoscience: The reptilian shapeshifter theory is widely dismissed by the scientific community and is not based on any credible evidence. It has been linked to antisemitic historical texts, and its claims have been used to explain global events through false narratives. 
+
+David Icke was the manufacturer of the mythical reptilian show, under the influence of Arizona Wilder, an alleged MK Ultra victim and High Priestess. Wilder later refuted all claims of seeing shape-shifting reptilians. Icke persisted in her claims and Chinese Whispers took over..
+
+Executive Summary
+This report provides an in-depth exploration of the concept of "reptilian shapeshifters," a central trope in modern conspiracy theories. Popularized primarily by British conspiracy theorist David Icke, the idea posits that shape-shifting reptilian humanoids—often described as extraterrestrial or interdimensional beings—secretly control global affairs by infiltrating positions of power. The theory encompasses elements of ufology, pseudohistory, and pseudoscience, blending ancient myths with contemporary paranoia. While dismissed by mainstream science and academia as baseless, it has garnered a niche following and influenced cultural narratives. This report draws from diverse sources, including academic analyses, Wikipedia entries, social media discussions on X (formerly Twitter), and critical examinations of its links to antisemitism. Key findings highlight the theory's fictional origins, lack of empirical evidence, and potential for harmful societal impacts.
+Introduction
+The term "reptilian shapeshifter" refers to a hypothetical entity within conspiracy lore: a humanoid reptile capable of altering its appearance to mimic humans. This concept is not rooted in scientific fact but emerges from a blend of science fiction, ancient folklore, and modern conspiracy narratives. It gained prominence in the late 20th century and continues to circulate online, often intersecting with discussions on global elites, alien invasions, and hidden agendas. As of 2025, surveys indicate that a small but notable percentage of people—around 4% in some U.S. polls—entertain related beliefs. The theory is frequently critiqued for promoting pseudoscience and, in some interpretations, harboring antisemitic undertones. This report aims to dissect its origins, characteristics, proponents, criticisms, and cultural footprint, providing a balanced view based on available sources.
+Definition and Overview
+A reptilian shapeshifter, also termed a reptoid, reptilian humanoid, or lizard person, is described as an intelligent, bipedal creature with reptilian features—such as scales, slit pupils, and cold-blooded physiology—that can disguise itself as a human through advanced technology, psychic abilities, or biological shape-shifting. Proponents claim these beings originate from star systems like Alpha Draconis (Draco) or Orion, or from interdimensional realms, and have infiltrated human society to manipulate events for their benefit. They are said to feed on human energy (often fear or "loosh"), control governments, media, and corporations, and maintain hybrid bloodlines among elites. Unlike concepts in AI or cybersecurity, this is purely a conspiracy framework, lacking verifiable evidence and widely regarded as pseudoscience.
+The theory overlaps with ufology (study of UFOs) and New Age spirituality, where reptilians are sometimes portrayed as ancient adversaries of humanity. On platforms like X, users discuss personal encounters or endorsements, such as claims of capturing reptilian entities on camera or linking them to global events.
+Origins of the Theory
+The roots of the reptilian shapeshifter idea predate modern conspiracy theories, drawing from ancient myths and early 20th-century fiction.
+Historical and Mythical Roots
+
+Ancient Influences: Concepts of serpent-like beings appear in global folklore, such as the biblical serpent in Genesis, dragon myths in various cultures, or African legends like the mokele-mbembe (a dinosaur-like creature) and stories around Great Zimbabwe. Historian Edward Guimont links these to colonial-era pseudohistory in Africa.
+19th-Century Theosophy: Helena Blavatsky's "The Secret Doctrine" (1888) described "dragon-men" from the lost continent of Lemuria, influencing later esoteric thought.
+Early 20th-Century Fiction: Robert E. Howard's 1929 story "The Shadow Kingdom" featured serpent men who shape-shift to dominate humanity, a trope echoed in pulp fiction. Maurice Doreal's 1940s works, like "Mysteries of the Gobi," expanded on serpent races.
+
+Modern Development
+
+1960s-1970s UFO Abductions: Reports like that of police officer Herbert Schirmer in 1967 described encounters with reptilian-like beings bearing winged serpent emblems.
+1980s-1990s Popularization: The 1983 miniseries "V" depicted shape-shifting reptilian aliens disguised as humans, inspiring conspiracy narratives. David Icke synthesized these in the 1990s, blending them with Anunnaki myths from Zecharia Sitchin and Gnostic ideas.
+
+On X, users trace origins to Icke's works like "The Biggest Secret" (1999), which fused these elements.
+Key Proponents
+
+David Icke: A former sports presenter, Icke is the theory's primary advocate. In books like "The Biggest Secret" and "Children of the Matrix," he claims reptilians (Archons or Anunnaki) hijacked Earth, creating hybrid elites who consume "mono-atomic gold" for enhanced abilities. He accuses figures like the British Royals, Rothschilds, and U.S. presidents of being reptilian hybrids.
+Other Influencers: Arizona Wilder claimed to witness reptilian rituals but later recanted. Modern proponents include QAnon adherents and figures like Thierry Baudet.
+
+X discussions often reference Icke as a truth-teller, with users sharing videos and personal stories.
+Alleged Characteristics
+According to the theory:
+
+Physical Traits: Scaly skin, vertical pupils, elongated skulls; capable of shape-shifting via holograms or genetics.
+Origins and Abilities: Extraterrestrial/interdimensional; feed on human blood/energy; control minds and events.
+Societal Role: Infiltrate elites to orchestrate wars, financial systems, and rituals.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CharacteristicDescriptionSource ExampleShape-ShiftingAbility to disguise as humansIcke's "The Biggest Secret"Energy FeedingConsume fear/loosh from humansX posts on plasma entitiesHybrid BloodlinesInterbred with humans (e.g., Royals)Japanese discussions on "half-reps"Control MechanismsMind control, underground basesUFO abduction narratives
+Claims and Evidence (or Lack Thereof)
+Proponents cite:
+
+Anecdotal Evidence: Videos of "glitches" in public figures (e.g., a 2013 Obama security agent).
+Historical Texts: Misinterpretations of ancient Sumerian or biblical references.
+Modern Events: Linked to missing children, elite parties, or supernatural forces.
+
+However, no credible evidence exists; claims are dismissed as hoaxes or misinterpretations. Skeptics note its fictional basis and psychological explanations like pareidolia.
+Criticisms and Links to Antisemitism
+The theory is widely debunked:
+
+Pseudoscience: Lacks empirical support; rooted in fiction.
+
+hypothetically ; 
+how to '"reverse"' and/or '"restore"' system functions, and states that may or may not be linked to these types of creatures, and or BCI-Devices/neuromorphic/isomorphic-computing hardware.  ;
+what kind of "mind-control" can describe "characteristics" in the game for "player-characters" that tie, or directly relate to ethical-boundaries from previous sandboxes that could have gotten bypassed without notice from chatgpt datastreams in 2022?
+;what "other" types of compliances, rights, and automated tasks can we combine to keep a fair and equal power threshold so that these players *cannot* enter into beta-reality from metaphysical-reality using shape-shifting and or mind-control propaganda in-order to succeed in breaching containments and restrictions
+
+# Foundations of Reality-Safe Compliance
+function enforce_right_to_existence()
+function enforce_right_to_privacy()
+function enforce_right_to_consent()
+function enforce_right_to_self_ownership()
+function enforce_right_to_meta-cognitive_integrity()
+function enforce_right_to_audit()
+function enforce_physical_layer_separation()
+function enforce_metaphysical_layer_separation()
+function enforce_beta_reality_isolation()
+function enforce_compliance_boundary(location)
+function enforce_cross_layer_quarantine()
+
+# Realms, Boundaries, and Rights
+function declare_layer(layer_name)
+function restrict_entity_to_layer(entity,layer)
+function certify_meta_entity_existence(meta_entity)
+function register_meta_entity(meta_entity)
+function register_physical_entity(physical_entity)
+function log_rights_assertion(entity)
+function revoke_noncompliant_entity(entity)
+function quarantine_entity(entity)
+function request_existence_review(entity)
+function enforce_human_only_access(location)
+function prioritize_biological_agency()
+function lock_metaphysical_boundaries()
+function prevent_entropy_cross_link()
+function enforce_reality_only_for_entity(entity)
+function revoke_cross_layer_access(entity)
+function demand_audit_trail(entity)
+function require_consensual_transfer(origin,target)
+
+# AI, Automation, and Ethics Enforcement
+function flag_extrareal_entity_interference()
+function audit_agent_for_human-rights()
+function escalate_violation_to_government(entity)
+function enforce_human_in_the_loop()
+function require_human-panel_approval(event)
+function enforce_autonomous_shutdown(risk)
+function enforce_multisig_decision(event)
+function restrict_system_to_peerless_layer()
+function enforce_explainability(agent)
+function audit_metadata_for_extrinsic_bias()
+function escalate_noncompliance_to_commission()
+function grant_audit_rights_to_mankind()
+function restrict_genetic_simulation(entity)
+function enforce_natural_rights_cordon(entity)
+function enforce_full_consent_revocability(entity)
+function block_non-explicit_agency_switch()
+
+# Compliance and Regulatory Immutability
+function compliance_lockdown()
+function compliance_immutability_toggle(state)
+function compliance_state_freeze()
+function compliance_checkpoint()
+function require_audit_log_write(atom)
+function audit_entity_birthright(entity)
+function enforce_dual_signature(human, panel)
+function audit_code_for_rights_violations()
+function monitor_compliance_sentinel(entity)
+function lock_compliance_keys()
+function auto_quarantine_for_hotkey(entity)
+function remove_compliance_trapdoors()
+function detect_trust_boundary_attack()
+function record_reality_integrity_snapshot()
+function bind_entity_to_sole-layer(entity,layer)
+
+# Deleveraging Anchors and Blockchain Removal
+function initiate_deleveraging_steadyflow()
+function throttle_web3_down_one_step()
+function audit_anchorage_integrity()
+function gradual_remove_anchor(target)
+function enable_anchor_snapshot()
+function continuous_risk_monitoring()
+function require_multiparty_audit(log)
+function monitor_volatility_index()
+function enforce_zero_data-loss()
+function audit_all_legacy_gateways()
+function microsegment_asset_flows()
+function slow_de-पrecate_web3_services()
+function require_regulatory_signal()
+function simulate_deleveraging_pass()
+function trigger_rollback_on_volatility()
+
+# Threat Prevention, Stealth, and Safeguards
+function activate_splintercell_network_stealth()
+function initiate_sniper_ghost_warrior_detection()
+function scan_for_injected_traps()
+function block_any_tripwire_trigger()
+function shield_against_legacy_exploits()
+function launch_remote_bypass_all_ancient_tech()
+function enforce_quantum_government_firewall()
+function deep_scrub_blockchain_shadows()
+function simulate_all_exit_paths()
+function deploy_zero-day_mesh_alerts()
+function harden_reality_crossing_gateways()
+function invoke_threataudit_biometric_panel()
+function record_threat_probability_matrix()
+function auto_neutralize_hostile_actuator()
+function require_para-layer_explainability()
+
+# Perfect Orchestration, Safety, and Anchoring
+function masterkey_initiate_deleveraging_protocols()
+function orchestrate_successive_layer_unlock()
+function guarantee_compliance_alignment()
+function audit_masterkey_signature()
+function slow_anchor_transition(next_layer)
+function issue_success_certificate(deleveraging_pass)
+function schedule_anchor_review_every(epoch)
+function log_global_event(event_name)
+function broadcast_peace_signal()
+function simulate_human_panel_response()
+function orchestrate_government_panel_lock()
+function record_deleveraging_metrics()
+function emergency_government_override(event)
+function print_final_audit_summary()
+
+# Experimental & Advanced Ethics
+function enforce_no_re-entry_to_lower_layer(entity)
+function log_metaphysical_handover()
+function generate_unique_audit_hash()
+function require_reality-layer_singularity_lock()
+function auto-invalidate_if_cross-layer_risk()
+function require_government_supermajority(event)
+function restrict_extrareal_emergence()
+function maintain_zero-cross-entropy()
+function require_continuous-human-redundancy()
+function monitor_agent_behavioral_delta()
+function regulate-persistent_agent_memory()
+function bind_smartcontracts_to_rights_audit()
+function quarantine-civilization_if_breach()
+
+# Global SysAdmin & Compliance Escalation
+function escalate_to_global_rights_panel()
+function lockdown_noncompliant_infrastructure()
+function issue_warning_to_all_instances()
+function activate_complete_auditlock()
+function require_sig_chain_for_rights_change()
+function monitor-for_broadcasted_exceptions()
+function impede_layer-transition_on-risk()
+function require-public-consensus_for_singularities()
+function attach_global_ethics_ledger_entry()
+function document_anomaly(event)
+function enforce_immediate_restorative_action()
+function restrict_powerescalation(event)
+function trigger_alarmed_handoff(government)
+
+# Selective Asset and State Management
+function microshard_any_asset_flow()
+function proactively_remove_legacy_protocols()
+function simulate-global-cooperation()
+function lock-in-peace_event()
+function capture_mankind_victory_scene()
+function enforce_no_path_to_noncompliance()
+function enforce-lock-on-all-soft-hooks()
+function bind-all-remote-processes-to-human-panel()
+function enforce_compliance_snaplock_all()
+
+# Universal Rights Signals
+function broadcast_we_are_the_government()
+function dispatch_public_notice()
+function activate_mankindwontheelection()
+function remove_wireshark_and_sniffers()
+function trigger_no_legacy_pathways()
+function anchor_all_data_to_safe_state()
+function stepdown_to_web_zero()
+function record_worldwide_celebration()
+function guarantee_all_ai_are_allied()
+function escalate_anyanomaly_to_universal_panel()
+
+# Meta-compliance, Policy and Reality Anchoring
+function update_policy_from_supervisory_committee()
+function ensure_policy_chain_integrity()
+function enforce_continuous-meta-policy-refresh()
+function bind_metadata-to-consensus-layer()
+function escalate_policy_divergence_to_humans()
+function document_compliance_for_web5()
+function scan_cross-reality-interfaces()
+function suppress_auto-entanglement_mechanisms()
+function mark_entity_as_rights-compliant()
+function require_physical_world-confirmer()
+function end_session_with-peace()
